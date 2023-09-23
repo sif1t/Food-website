@@ -27,6 +27,11 @@ function Navbar() {
         <BsFillCartFill size={20} className='mr-2'/> cart
      </button>
     {/* mobile menu  */}
+    {/* overlay  */}
+        <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div>
+    {/* side drawer menu  */}
+
+
      </div>
   )
 }
