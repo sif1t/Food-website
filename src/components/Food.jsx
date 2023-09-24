@@ -3,7 +3,22 @@ import { data } from '../data/data.js'
 const Food = () => {
     const [foods, setFoods] =useState(data)
 //    filter type burger/pizza/etc  
-       const 
+       const filterType = (category) => {
+          setFoods(
+            data.filter((item)=> {
+                return item.category === category;
+            })
+          );
+       };
+
+       // filter by price
+         const filterPrice = (price) => {
+            setFoods(
+                data.filter((item) => {
+                    return item.price === price;
+                })
+            );
+         };
 
     return (
         <div className='max-w-[1640px] m-auto px-4 py-12'>
@@ -15,21 +30,21 @@ const Food = () => {
               <div>
                   <p className='font-bold text-gray-700'>Filter Type</p>
                   <div className='flex justify-between flex-wrap'>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>All</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Burgers</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Pizza</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Salads</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Chicken</button>
+                      <button onClick={()=> setFoods(data)} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>All</button>
+                      <button onClick={()=> filterType('burger')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Burgers</button>
+                      <button onClick={()=> filterType('pizza')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Pizza</button>
+                      <button onClick={()=> filterType('salad')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Salads</button>
+                      <button onClick={()=> filterType('chicken  ')}  className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Chicken</button>
                   </div>
               </div>
               {/* filter price  */}
               <div>
                 <p className='font-bold text-gray-700'>Filter Price</p>
                 <div className='flex justify-between max-w-[390px] w-full'>
-                <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$</button>
-                      <button className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$$</button>
+                      <button onClick={() => filterPrice('$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$</button>
+                      <button onClick={() => filterPrice('$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$</button>
+                      <button onClick={() => filterPrice('$$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$</button>
+                      <button onClick={() => filterPrice('$$$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$$</button>
                 </div>
               </div>
            </div>
@@ -50,7 +65,7 @@ const Food = () => {
        </div>
 
         </div>
-    )
-}
+    );
+};
 
 export default Food
