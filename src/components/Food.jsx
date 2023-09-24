@@ -35,6 +35,9 @@ const Food = () => {
                       <button onClick={()=> filterType('pizza')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Pizza</button>
                       <button onClick={()=> filterType('salad')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Salads</button>
                       <button onClick={()=> filterType('chicken')}  className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Chicken</button>
+                      <button onClick={()=> filterType('stack')}  className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Stack</button>
+                      <button onClick={()=> filterType('fish')}  className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Fish</button>
+                      <button onClick={()=> filterType('drinks')}  className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>Dirinks</button>
                   </div>
               </div>
               {/* filter price  */}
@@ -45,6 +48,7 @@ const Food = () => {
                       <button onClick={() => filterPrice('$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$</button>
                       <button onClick={() => filterPrice('$$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$</button>
                       <button onClick={() => filterPrice('$$$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$$</button>
+                      <button onClick={() => filterPrice('$$$$$')} className='m-1 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white'>$$$$$</button>
                 </div>
               </div>
            </div>

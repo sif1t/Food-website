@@ -351,6 +351,198 @@ export const data = [
         category: 'chicken',
         image:
           'https://media.istockphoto.com/id/470448304/photo/fried-chicken-wings-with-dips-chicken-sauce.jpg?s=612x612&w=0&k=20&c=dfFpcx1yipBhVlanGsHInsTxrVPJaA7qIeVPV3NiVnI=',
+        price: '$$$$',
+      },
+      {
+        id: 42,
+        name: 'Extra Lean Beef Steack Mince',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/492333291/photo/beef-steak.jpg?s=612x612&w=0&k=20&c=_1cge8T_Un_wc5-yPsTOtZWvv8MYvFhQv66cIR_t0Uk=',
+        price: '$$',
+      },
+      {
+        id: 43,
+        name: 'Extra Lean Beef Steack Mince',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/805076278/photo/beef-meat-steak-bbq-roasted-grill-restaurant.jpg?s=612x612&w=0&k=20&c=YXesrDDmBgJPTEj0epyhlbqSx6SQzMx-SPNbR-yCEi4=',
+        price: '$$$',
+      },
+      {
+        id: 44,
+        name: 'Dragon Fire Hache Steaks',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1341649703/photo/filet-mignon-steak-in-a-pan-is-turned-over-with-tongs-the-process-of-cooking-on-the-grill.jpg?s=612x612&w=0&k=20&c=ew_5XnZNMhTo_iX2foxbM6zCOLMmPS3dI1tthnsQA-Y=',
+        price: '$',
+      },
+      {
+        id: 45,
+        name: 'Dragon Fire Hache Steaks',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1317842607/photo/one-new-york-steak-topped-with-grilled-jumbo-shrimp-on-a-hot-fiery-charcoal-grill-high-angle.jpg?s=612x612&w=0&k=20&c=X-7HYV4R5jDNCUAjv98yZMsmHf6U1vavpetqYzddTnA=',
+        price: '$$$$',
+      },
+      {
+        id: 46,
+        name: 'Free Range Hache Steaks',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1317651039/photo/closeup-of-fried-veal-entrecote-on-wooden-board-with-condiments.jpg?s=612x612&w=0&k=20&c=gvs-HYPTAH-XNcRmijlNr05XhFsh5h8xAwKVgmI0Es4=',
+        price: '$$',
+      },
+      {
+        id: 47,
+        name: 'Free Range Hache Steaks',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1320611957/photo/juicy-and-grilled-beef-rib-eye-steak-in-pan-with-salt-pepper-and-rosemary-herbs.jpg?s=612x612&w=0&k=20&c=bAGb7KUlCVt03YcEbfgg7b2q1_lomFNmy6ZvRkSw7R8=',
+        price: '$',
+      },
+      {
+        id: 48,
+        name: 'Free Range Hache Steaks',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/913508642/photo/grilled-beef-steak-on-stone-plate-over-wooden-table-with-fork-and-knife.jpg?s=612x612&w=0&k=20&c=ToOMHWoczdwb6uJDBVKPQ6SJwOX4DrBU5yK_B_MaAgk=',
+        price: '$$$$',
+      },
+      {
+        id: 49,
+        name: 'Extra Lean Steak Burgers',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1202072037/photo/cooked-chopped-steack.jpg?s=612x612&w=0&k=20&c=OgEvEJeupY7dtGVhddPti1Kq0J_QFAwqEGE0k-lCQSs=',
+        price: '$$',
+      },
+      {
+        id: 50,
+        name: 'Extra Lean Steak Burgers',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/178368169/photo/grilled-beefsteaks-and-vegetables.jpg?s=612x612&w=0&k=20&c=0v7x4WxFjHnTHs1DcQFpxvINkRmqeWdxuPkbomb78ys=',
+        price: '$',
+      },
+      {
+        id: 51,
+        name: 'Extra Lean Steak Burgers',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1126920191/photo/beef-steak-with-grilled-vegetables-served-on-white-plate-food-concept.jpg?s=612x612&w=0&k=20&c=swMFLx21MzbS8atwVd-EajpB-AiOOqgF6Z6cBZ83yPs=',
+        price: '$$$',
+      },
+      {
+        id: 51,
+        name: 'Beff Meatballs',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/499578760/photo/homemade-barbecue-meat-balls.jpg?s=612x612&w=0&k=20&c=kUdos-naJRGLGQ01O0J_-Tcs-U5w0q1jVhavGvjeYAo=',
+        price: '$$$$',
+      },
+      {
+        id: 52,
+        name: 'Beff Meatballs',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/629530148/photo/delicious-roasted-meatballs-in-a-pan.jpg?s=612x612&w=0&k=20&c=7esLoQN0gA4s1auKRJztL0Knu-chvgfYpd5v_mIoXDg=',
+        price: '$$',
+      },
+      {
+        id: 53,
+        name: 'Beff Meatballs',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1214579647/photo/meatballs-cooked-on-barbecue-with-smoke.jpg?s=612x612&w=0&k=20&c=xrNq8U4SA8TwFGZA48TFKeyX44m5R648KdnfYrwoTX8=',
+        price: '$',
+      },
+      {
+        id: 54,
+        name: 'Chicken Breast Mini Fillets',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/993957226/photo/pieces-of-fried-chicken-curry-fillet-on-rye-flatbread-with-vegetables.jpg?s=612x612&w=0&k=20&c=0UOnzX56nynC_0pzsmhmqfmd6sWV4Q-SSAE4I9G_zic=',
+        price: '$$$$$',
+      },
+      {
+        id: 55,
+        name: 'Chicken Breast Mini Fillets',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1249727856/photo/mushroom-linguine-with-tomato-sauce-baked-cherry-tomatoes-and-grilled-chicken-breasts-topped.jpg?s=612x612&w=0&k=20&c=8qbNzCO2Sqz5MJhkJYIU96RAvzzJ-MpXpkBD3jHTQMI=',
+        price: '$$$$$',
+      },
+      {
+        id: 56,
+        name: 'Chicken Breast Mini Fillets',
+        category: 'stack',
+        image:
+          'https://media.istockphoto.com/id/1249727856/photo/mushroom-linguine-with-tomato-sauce-baked-cherry-tomatoes-and-grilled-chicken-breasts-topped.jpg?s=612x612&w=0&k=20&c=8qbNzCO2Sqz5MJhkJYIU96RAvzzJ-MpXpkBD3jHTQMI=',
+        price: '$$$$$',
+      },
+      {
+        id: 57,
+        name: 'Smoked Salmon Slices',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1389184669/photo/open-sandwiches-with-salted-salmon.jpg?s=612x612&w=0&k=20&c=fEfYDPsBJ3ybeL0K0dQ807Bb8nbIz6EzYWAmwi75wrA=',
+        price: '$$$$$',
+      },
+      {
+        id: 58,
+        name: 'Smoked Salmon Slices',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1684517823/photo/crisp-bread-sandwiches-with-cream-cheese-slices-of-salmon-and-parsley-close-up.jpg?s=612x612&w=0&k=20&c=0x5XJqgU9LeqwcXd_XTTnLYoDeo2eqsVek4wFvw8VKw=',
+        price: '$$$$$',
+      },
+      {
+        id: 58,
+        name: 'Fresh Tuna Fillets ',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1495574329/photo/fried-tuna-steak-with-grilled-asparagus.jpg?s=612x612&w=0&k=20&c=u4TKUsHfzrqGBQHjH_vdR8bWYUV9Dds2bQNmuBPsQZY=',
+        price: '$$$$$',
+      },
+      {
+        id: 59,
+        name: 'Fresh Tuna Fillets ',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1463126395/photo/fresh-tuna-salad.jpg?s=612x612&w=0&k=20&c=w6ZqYspA93JKtBsihhjTkDsz9H5ZGrVn3bTQV1IvCcg=',
+        price: '$$$$$',
+      },
+      {
+        id: 60,
+        name: 'Fresh Scottish Cod Fillet ',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1388014242/photo/chicken-steak-potatoes-lemon-lettuce-knife.jpg?s=612x612&w=0&k=20&c=SFcapSSS-09kB8Izs7OpAXsc4YNoMvcf0sPU28jf_1c=',
+        price: '$$$',
+      },
+      {
+        id: 61,
+        name: 'Fresh Scottish Cod Fillet ',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/997812280/photo/grilled-salmon-steak.jpg?s=612x612&w=0&k=20&c=47-sFt3-Dc_Odfl1KfgTJLvKrVr9hqikTC9kjQ-ZdKI=',
+        price: '$',
+      },
+      {
+        id: 62,
+        name: 'Fresh Tuna Fillets ',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1429337658/photo/grilled-tuna.jpg?s=612x612&w=0&k=20&c=q1yR82zc3nE_VDjqTUW6OGJGoM3I1k8LJ7eSOjjmRwk=',
+        price: '$$',
+      },
+      {
+        id: 63,
+        name: 'Fresh Cod Fillets',
+        category: 'fish',
+        image:
+          'https://media.istockphoto.com/id/1522259241/photo/flounder-fish-fried.jpg?s=612x612&w=0&k=20&c=qYjEIyB1NdAEYOGFq36DFLhwqGFM-6LfU8x0k_q-j4A=',
         price: '$$',
       },
      
