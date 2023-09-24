@@ -55,7 +55,7 @@ const Food = () => {
             </div>
 
             {/* display food  */}
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 cursor-pointer'>
                 {foods.map((item, index) => (
                     <div key={index} className='border shadow-lg rounded-lg hover:scale-105 duration-300'>
                         <img src={item.image} alt={item.name} className='w-full h-[200px] object-cover rounded-lg' />
