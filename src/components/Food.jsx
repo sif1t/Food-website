@@ -7,7 +7,12 @@ const Food = () => {
 
            {/* filter row  */}
            <div>
-            
+              {/* filter type  */}
+              <div>
+
+              </div>
+              {/* filter price  */}
+              <div></div>
            </div>
         </div>
     )
