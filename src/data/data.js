@@ -545,6 +545,230 @@ export const data = [
           'https://media.istockphoto.com/id/1522259241/photo/flounder-fish-fried.jpg?s=612x612&w=0&k=20&c=qYjEIyB1NdAEYOGFq36DFLhwqGFM-6LfU8x0k_q-j4A=',
         price: '$$',
       },
+      {
+        id: 64,
+        name: 'Wine',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1209107615/photo/wine-bottles-on-shelf-at-a-winery.jpg?s=612x612&w=0&k=20&c=2i1cKR-R5NTpQt-3AOGGym1f5EujCbuNMmSOjK5kSMc=',
+        price: '$$$',
+      },
+      {
+        id: 65,
+        name: 'Wine',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1266799425/photo/serving-drinks-for-new-years-party.jpg?s=612x612&w=0&k=20&c=6yVVMJAB-L92oZynyIb8HDT9kpqh7eE2pL_kJDAJGQk=',
+        price: '$$$$',
+      },
+      {
+        id: 67,
+        name: 'Black Coffee',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1276830740/photo/black-coffee-served-in-a-transparent-glass-cup-with-coffee-beans-around.jpg?s=612x612&w=0&k=20&c=x-PDUWhmmK88LybJvrTWd2xRR1BfrNHPYX9hEzlGUvE=',
+        price: '$$$',
+      },
+      {
+        id: 68,
+        name: 'Black Coffee',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1449791528/photo/fresh-brewed-coffee.jpg?s=612x612&w=0&k=20&c=uK9dyjetWAiNMCV5l6SDiPFNP7IjA_htycolORZqtBY=',
+        price: '$$$$$',
+      },
+      {
+        id: 68,
+        name: 'Cold Coffee',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1145702292/photo/homemade-delicious-iced-coffee-in-a-tall-glass.jpg?s=612x612&w=0&k=20&c=TPuaVzGj3r-KhNwvqpXh6d-3mChZxt-X3feI2Am4zg4=',
+        price: '$',
+      },
+      {
+        id: 69,
+        name: 'Cold Coffee',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1595085401/photo/milky-cream-pouring-into-the-crystal-jar-with-black-coffee-and-ice-cubes-on-convrete.jpg?s=612x612&w=0&k=20&c=Mz7FX1paoyI1imoWz-U7m36Zvzb2C-gTSafkomNM7HI=',
+        price: '$$$',
+      },
+      {
+        id: 70,
+        name: 'Lemonade',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1358742971/photo/cocktail-gin-tonic-with-lemon-slices-and-twigs-of-rosemary-on-a-black-background.jpg?s=612x612&w=0&k=20&c=6NUeBckSMW8Bxyczk060peOiC1z1NuvYMeLBYNFBC4U=',
+        price: '$$$$',
+      },
+      {
+        id: 71,
+        name: 'Lemonade',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1390037696/photo/home-made-lemonades-on-dar-background.jpg?s=612x612&w=0&k=20&c=oMJar7--ZRR58DGErdogfyyp2N_r4CLHTY9koSqEyME=',
+        price: '$$',
+      },
+      {
+        id: 71,
+        name: 'Iced Tea',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1469309781/photo/an-orange-drink-with-ice-in-a-glass-a-drink-in-a-glass-isolated-on-a-black-background-a-drink.jpg?s=612x612&w=0&k=20&c=SnPh5szLFrCD7d48cRa83QFb3WG2wOlHjjqRgCaAPJs=',
+        price: '$$',
+      },
+      {
+        id: 72,
+        name: 'Iced Tea',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1395444662/photo/agua-de-jamaica-or-roselle-mocktail-drink-summer-beverage-in-mexico-with-ice-and-dry-hibiscus.jpg?s=612x612&w=0&k=20&c=__00l03IYZThFDg_g2i9N0n_JgFOm8xMXx5ddZoj2_Q=',
+        price: '$$',
+      },
+      {
+        id: 73,
+        name: 'Hot Chocolate',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1287502202/photo/winter-day-by-fireplace.jpg?s=612x612&w=0&k=20&c=JBn2cZMtVvBQkeGBvaYdKmefnVsxfeMzIDBW82ZkKbY=',
+        price: '$$$',
+      },
+      {
+        id: 74,
+        name: 'Hot Chocolate',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1345963730/photo/hot-chocolate-with-whipped-cream-cinnamon-and-star-anise-served-on-a-wooden-table.jpg?s=612x612&w=0&k=20&c=jSjNFdBp5ytbglI4Uc9k_XS3Ttef8Tt1-wDvS5vQ2-8=',
+        price: '$',
+      },
+      {
+        id: 75,
+        name: 'Juice',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1467679261/photo/various-colourful-fresh-raw-ingredients-and-already-blended-mix-in-a-bottles-for-individual.jpg?s=612x612&w=0&k=20&c=F35BCApSdJci6NXRaaRNTX5Nff6ySp7EUVIszBHN56E=',
+        price: '$$',
+      },
+      {
+        id: 76,
+        name: 'Juice',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1160244902/photo/beet-juice-on-rustic-wooden-table.jpg?s=612x612&w=0&k=20&c=BJhurSwUJ3AMUAoTfTHIxXaOB-pEuOmus-FybFZssJk=',
+        price: '$$$',
+      },
+      {
+        id: 77,
+        name: 'MilkShake',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1126893721/photo/low-key-chocolate-smoothies-on-a-table-in-a-rustic-kitchen.jpg?s=612x612&w=0&k=20&c=ubUfrroh2JWOvdqt3lFhfmXK0OZKzCDbGNj5JVcFRVg=',
+        price: '$$$$$',
+      },
+      {
+        id: 78,
+        name: 'MilkShake',
+        category: 'drinks',
+        image:
+          'https://media.istockphoto.com/id/1477609546/photo/fancy-milkshake.jpg?s=612x612&w=0&k=20&c=DXDCAlPH-7tRzWUS5h-ZZ2Ga_sd2b6qEALLB-H1h1F8=',
+        price: '$',
+      },
+      {
+        id: 79,
+        name: 'Cup Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1486428128344-5413e434ad35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTE4NTk5MXx8ZW58MHx8fHx8&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$',
+      },
+      {
+        id: 79,
+        name: 'Cup Cake',
+        category: 'cake',
+        image:
+          'https://plus.unsplash.com/premium_photo-1677471855953-c12c47c5c86b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MUxZVDR0QUVYOWd8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$$',
+      },
+      {
+        id: '80',
+        name: 'Blackout Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1577219453102-46e4981fa3a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NDU5NDQ3NDl8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$$$$$',
+      },
+      {
+        id: '81',
+        name: 'Blackout Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1557925923-cd4648e211a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NDk5OTU1OHx8ZW58MHx8fHx8&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$$',
+      },
+      {
+        id: '82',
+        name: 'Butter Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1422255198496-21531f12a6e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NDUyNzQwMnx8ZW58MHx8fHx8&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$$$$',
+      },
+      {
+        id: '83',
+        name: 'Butter Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1542691505-a180be9d7652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OGRpRW83NXhzbEl8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$',
+      },
+      {
+        id: '84',
+        name: 'Batik Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1542691505-a180be9d7652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OGRpRW83NXhzbEl8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&h=294&q=60',
+        price: '$$$',
+      },
+      {
+        id: '85',
+        name: 'Batik Cake',
+        category: 'cake',
+        image:
+          'https://images.unsplash.com/photo-1505252827206-b0ef670590f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NzEyOTg4NjJ8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=126&h=147&q=60',
+        price: '$$',
+      },
+      {
+        id: '86',
+        name: 'Dundee Cake',
+        category: 'cake',
+        image:
+          'https://media.istockphoto.com/id/881833496/photo/dundee-cake-traditional-scottish-christmas-cake-with-dried-fruits-almond-and-spices-f.webp?b=1&s=170667a&w=0&k=20&c=4dJVZhnOJWeJCJ7kjYGxRsfjTeEkVxqO80g_kj9A-b4=',
+        price: '$$$',
+      },
+      {
+        id: '87',
+        name: 'Dundee Cake',
+        category: 'cake',
+        image:
+          'https://media.istockphoto.com/id/172655436/photo/dundee-cake-for-christmas.webp?b=1&s=170667a&w=0&k=20&c=2iobgE1H_QLOjJByhDbmUODeZnkoI3xyu9jRyCSqu8s=',
+        price: '$',
+      },
+      {
+        id: '88',
+        name: 'Carrot Cake',
+        category: 'cake',
+        image:
+          'https://media.istockphoto.com/id/1247845894/photo/carrot-cake.webp?b=1&s=170667a&w=0&k=20&c=sd7IczfWmENTvHJXoXgwrgFKFHdK38_3XjHBEMW_pHw=',
+        price: '$',
+      },
+      {
+        id: '89',
+        name: 'Carrot Cake',
+        category: 'cake',
+        image:
+          'https://media.istockphoto.com/id/1466463759/photo/colorful-decorated-easter-table-with-easter-eggs-flowers-and-carrot-easter-cake.webp?b=1&s=170667a&w=0&k=20&c=kAcN0BYucz-otnfc5QgVrYB5EvB_bm3nzAICMaqY2sU=',
+        price: '$',
+      },
      
   ];
      
