@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { data } from '../data/data.js'
 const Food = () => {
     const [foods, setFoods] =useState(data)
-
+//    filter type burger/pizza/etc  
+       const 
 
     return (
         <div className='max-w-[1640px] m-auto px-4 py-12'>
